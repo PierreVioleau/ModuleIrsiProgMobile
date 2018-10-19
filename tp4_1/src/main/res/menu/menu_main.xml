@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.eigsi.irsi.moduleirsiprogmobile.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item android:title="Vue">
+        <menu>
+            <item
+                android:id="@+id/action_satellite"
+                android:orderInCategory="100"
+                android:title="@string/action_Vue_Satellite"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_terrain"
+                android:orderInCategory="100"
+                android:title="@string/action_Vue_Terrain"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

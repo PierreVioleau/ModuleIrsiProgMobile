@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">tp4-1 IntroMap</string>
+    <string name="title_activity_maps">tp4_1</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_Vue_Satellite">Vue Satellite</string>
+    <string name="action_Vue_Terrain">Vue Terrain</string>
+</resources>
